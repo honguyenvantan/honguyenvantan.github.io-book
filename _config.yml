@@ -1,0 +1,43 @@
+title: Book of Tan
+description: Story, biology...
+baseurl: ""
+url: "honguyenvantan.github.io"
+repository: honguyenvantan
+paginate: 28
+
+banner: "/assets/res/banner.png" # site banner (load when someone share your page url)
+favicon: "/assets/res/favicon.png" # site's favicon (icon left side of your page)
+
+# MatJek specific configurations
+user: 
+  name: "Book of Tan"
+  email: "honguyenvantan@gmail.com"
+  website: "sachbio24h.tk"
+  avatar: "/assets/res/user.png"
+  github: "honguyenvantan"
+google_tracking_id: ""
+google_site_verification: ""
+disqus_shortname: this-site
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title
+
+
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-redirect-from
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+sass:
+  style: compressed
+
+  future: true
