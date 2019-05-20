@@ -1,6 +1,6 @@
 title: Book of Tan
 description: Story, biology...
-baseurl: ""
+baseurl: "/book"
 url: "honguyenvantan.github.io"
 repository: honguyenvantan
 paginate: 28
